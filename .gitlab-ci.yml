@@ -6,8 +6,17 @@
 # Note that environment variables can be set in several places
 # See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
 stages:
-- test
+- 🐀 test
+- 🦄 deploy
+
 sast:
-  stage: test
+  stage: 🐀 test
 include:
 - template: Security/SAST.gitlab-ci.yml
+
+
+deploy:
+  stage: 🦄 deploy
+  script:
+    - npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
+    - npm publish --verbose

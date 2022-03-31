@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run docs && cat docs/0_introduction.md docs/1_commander_cli_documentation.md > README.md
