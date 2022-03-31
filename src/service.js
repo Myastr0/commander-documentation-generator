@@ -31,7 +31,7 @@ const addArgsAndOptions = (docs, args = [], options = []) => {
           `| \`${option.long}\` | ${
             option.short ? `\`${option.short}\`` : ''
           } | ${option.description} | ${
-            option.optional ? 'optional' : 'required'
+            option.required ? 'required' : 'optional'
           } | ${option.defaultValue ? `\`${option.defaultValue}\`` : ''} |`,
       )
       .join('\n');
