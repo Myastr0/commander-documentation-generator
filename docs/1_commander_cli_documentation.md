@@ -1,10 +1,10 @@
 # Table of Contents
 
- - [commander-cli-documentation-generator](#commander-cli-documentation-generator)
+ - [commander-documentation-generator](#commander-documentation-generator)
 	 - [generate](#generate)
-# Commander-cli-documentation-generator 
+# Commander-documentation-generator 
 **Description**: 
- This is a CLI to generate commander CLI documentation 
+ This is a CLI to generate commander CLI documentation
 
 #### Arguments
 | Nom | Alias | Description | Optionnelle | Valeur par défaut | Exemple | 
@@ -26,5 +26,5 @@
 
  
     
-    commander-cli-documentation-generator generate  --input <input> --output <output>
+    commander-documentation-generator generate  --input <input> --output <output>
     
