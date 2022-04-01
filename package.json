@@ -1,20 +1,19 @@
 {
-  "name": "commander-cli-documentation-generator",
+  "name": "commander-documentation-generator",
   "type": "commonjs",
   "version": "1.0.0",
-  "description": "This is a CLI to generate commander CLI documentation ",
+  "description": "This is a CLI to generate commander CLI documentation",
   "main": "./src/index.js",
   "bin": {
-    "commander-cli-documentation-generator": "./dist/index.js"
+    "commander-cli-documentation-generator": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "docs": "node ./bin/index.js generate -i ./src/index.js -o ./docs/1_commander_cli_documentation.md"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/Myastro/commander-cli-documentation-generator.git"
+    "url": "git@github.com:Myastr0/commander-documentation-generator.git"
   },
   "keywords": [
     "Commander",
@@ -24,9 +23,9 @@
   "author": "Myastro",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/Myastro/commander-cli-documentation-generator/issues"
+    "url": "https://github.com/Myastr0/commander-documentation-generator/issues"
   },
-  "homepage": "https://gitlab.com/Myastro/commander-cli-documentation-generator#readme",
+  "homepage": "https://github.com/Myastr0/commander-documentation-generator#readme",
   "devDependencies": {
     "eslint": "8.12.0",
     "eslint-config-airbnb-base": "15.0.0",
