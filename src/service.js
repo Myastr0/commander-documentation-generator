@@ -82,7 +82,7 @@ const buildRecursiveDocumentation = (program, level = 0) => {
   });
 
   if (program.commands.length === 0) {
-    docs += `Example: \n\n 
+    docs += `\n Example: \n\n 
     
     ${getFullCommandName(program)}
     \n`;

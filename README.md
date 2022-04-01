@@ -16,7 +16,7 @@ This tool generates a markdown file containing the documentation for a given com
 #### Arguments
 | Nom | Alias | Description | Optionnelle | Valeur par défaut | Exemple | 
 | ---- | ----- | ----------- | ----------- | --------------- | ----------- | 
-| `--version` | `-V` | output the version number | required |  |
+| `--version` | `-V` | output the version number | optional |  |
 ---
 ---
 ## Module: Generate <div id="generate"></div>

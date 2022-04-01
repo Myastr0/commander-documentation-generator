@@ -9,7 +9,7 @@
 #### Arguments
 | Nom | Alias | Description | Optionnelle | Valeur par défaut | Exemple | 
 | ---- | ----- | ----------- | ----------- | --------------- | ----------- | 
-| `--version` | `-V` | output the version number | required |  |
+| `--version` | `-V` | output the version number | optional |  |
 ---
 ---
 ## Module: Generate <div id="generate"></div>
@@ -21,7 +21,7 @@
 | ---- | ----- | ----------- | ----------- | --------------- | ----------- | 
 | `--input` | `-i` | Path to config file | required |  |
 | `--output` | `-o` | Path to output file | required | `./documentation.md` |
-Example: 
+ Example: 
 
  
     
