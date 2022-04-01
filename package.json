@@ -1,7 +1,7 @@
 {
   "name": "commander-documentation-generator",
   "type": "commonjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a CLI to generate commander CLI documentation",
   "main": "./src/index.js",
   "bin": {
