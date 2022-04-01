@@ -28,7 +28,8 @@ This tool generates a markdown file containing the documentation for a given com
 | ---- | ----- | ----------- | ----------- | --------------- | ----------- | 
 | `--input` | `-i` | Path to config file | required |  |
 | `--output` | `-o` | Path to output file | required | `./documentation.md` |
-Example: 
+
+ Example: 
 
  
     

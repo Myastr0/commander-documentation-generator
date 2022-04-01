@@ -15,14 +15,12 @@ program
   .requiredOption('-i, --input <path>', 'Path to config file')
   .option('-o, --output <path>', 'Path to output file', './documentation.md')
   .action(({ input, output }) => {
-    console.log(`input: ${path.resolve(input)}`);
-    console.log(`output: ${output}`);
-
     const subprogram = require(path.resolve(input));
 
     const { docs, tableOfContents } = buildRecursiveDocumentation(subprogram);
 
     writeDocumentation(tableOfContents + docs, output);
+    console.log(`output: ${path.resolve(output)}`);
   });
 
 module.exports = program;

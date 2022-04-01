@@ -9,7 +9,6 @@ const addCommand = (docs, command) => `${docs} \`\`\`${command}\`\`\`\n`;
 const getFullCommandName = (program) => {
   const args = program._args.map((a) => `<${a.name()}>`).join(' ');
 
-  console.log({ options: program.options });
   const options = program.options
     .filter((o) => o.required)
     .map((o) => `${o.long} <${o.long.slice(2)}>`)
