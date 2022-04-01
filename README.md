@@ -1,10 +1,16 @@
-# Commander CLI Documentation Generator
+# Commander Documentation Generator
 
 ## Description
 
 This tool generates a markdown file containing the documentation for a given commander cli module.
 
-## Usage
+## Installation
+
+```bash
+npm install -g commander-documentation-generator
+```
+
+## Documentation
 # Table of Contents
 
  - [commander-documentation-generator](#commander-documentation-generator)
