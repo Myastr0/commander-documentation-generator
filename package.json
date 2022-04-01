@@ -5,7 +5,7 @@
   "description": "This is a CLI to generate commander CLI documentation",
   "main": "./src/index.js",
   "bin": {
-    "commander-cli-documentation-generator": "./bin/index.js"
+    "commander-documentation-generator": "./bin/index.js"
   },
   "scripts": {
     "prepare": "husky install",
